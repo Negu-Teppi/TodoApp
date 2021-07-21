@@ -1,6 +1,8 @@
 package com.manhlee.Model;
 
-public class Todo {
+import java.io.Serializable;
+
+public class Todo implements Serializable {
     private int id;
     private String name;
     private int status; //open=0, re-open=1
